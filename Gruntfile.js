@@ -86,7 +86,7 @@ module.exports = function(grunt) {
 					exports: false
 				}
 			},
-			files: [ 'Gruntfile.js', 'js/reveal.js' ]
+			files: [ 'Gruntfile.js', 'js/reveal.js', 'js/autoslide.js' ]
 		},
 
 		connect: {
@@ -117,7 +117,7 @@ module.exports = function(grunt) {
 				livereload: true
 			},
 			js: {
-				files: [ 'Gruntfile.js', 'js/reveal.js' ],
+				files: [ 'Gruntfile.js', 'js/reveal.js', 'js/autoslide.js' ],
 				tasks: 'js'
 			},
 			theme: {
@@ -129,7 +129,7 @@ module.exports = function(grunt) {
 				tasks: 'css-core'
 			},
 			html: {
-				files: [ 'index.html']
+				files: [ 'index.html','ubermensch.html','diabetes.html', 'demo.html']
 			},
 			markdown: {
 				files: [ './*.md' ]

@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Source Tools To Manage Diabetes</title>
+
+		<meta name="description" content="The Maker Movement & Open Data Analysis">
+		<meta name="author" content="Andy Choens">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/andy.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+		 var link = document.createElement( 'link' );
+		 link.rel = 'stylesheet';
+		 link.type = 'text/css';
+		 link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		 document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		    <script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+                    <h1>Open Source Tools To Manage Diabetes</h1>
+					<h3>The Maker Movement & Open Data Analysis</h3>
+                    
+                    <div id="container">
+                        <div id="left" style="text-align:center">
+					        <img src="img/nightscout_logo.png" width="100%">
+                        </div>
+                        <div id="right" style="text-align:center">
+                            <img src="img/rlogo.png" width="70%">
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>What Is Diabetes Mellitus?</h3>
+
+                    <img src="img/diabetes_logo.png" width="50%">
+                    
+                </section>
+
+                <section>
+                    <h3>Dafynition: Diabetes Mellitus</h3>
+                    
+                    <p style="text-align:left;"><small>
+                        Diabetes mellitus type 1 (also known as type 1
+                        diabetes, or T1D; formerly juvenile
+                        diabetes). Caused by the autoimmune
+                        destruction of the insulin-producing beta
+                        cells in the pancreas which leads to increased
+                        glucose in blood and urine. Classical symptoms
+                        are polyuria (frequent urination), polydipsia
+                        (increased thirst), polyphagia (increased
+                        hunger) and weight loss.
+                    </small></p>
+
+                    <p style="text-align:left;"><small>
+                        The cause of diabetes mellitus type 1 is
+                        unknown. Type 1 diabetes can be distinguished
+                        from type 2 by autoantibody testing. The C-peptide
+                        assay, which measures endogenous insulin
+                        production, can also be used.
+                    </small></p>
+                    <p style="text-align:left;"><small>
+                        Administration of insulin is essential for
+                        survival and must be continued
+                        indefinitely. T1Ds are trained to
+                        independently manage their diabetes which can
+                        be challenging.
+                    </small></p>
+                    <p style="text-align:left;"><small>
+                        Acute complications include diabetic
+                        ketoacidosis and nonketotic hyperosmolar
+                        coma. Serious long-term complications related
+                        to high blood sugar include heart disease,
+                        stroke, kidney failure, foot ulcers and damage
+                        to the eyes. Other complications may arise
+                        from low blood sugar caused by excessive
+                        insulin treatment.
+                    </small></p>
+                    <p style="text-align:left;"><small>
+                        Diabetes mellitus type 1 accounts for between
+                        5% and 10% of all diabetes cases. Within the
+                        United States the number of affected persons
+                        is estimated at one to three million. There
+                        are 8-17 new cases per 100,000 per year in the
+                        US.
+                    </small></p>
+                    <p><a href="https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1">https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1</a></p>
+                </section>
+
+                <section>
+                    <h3>Homeostasis</h3>
+                    <ul>
+                        <li>
+                            The property of a system in which
+                            variables are regulated so that internal
+                            conditions remain stable and relatively
+                            constant
+                        </li>
+                        <li>A constant challenge for a T1D</li>
+                        <li>100 years ago, almost always fatal in childhood</li>
+                        <li>Today, a manageable condition, thanks to technology</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Technology!</h3>
+                    <ul>
+                        <li>Evolved over a billion years ago, roughly</li>
+                        <li>Pancreas producing cells discovered: 1869</li>
+                        <li>Role of pancreas in digestion understood: 1889</li>
+                        <li>Diagnostic criteria for diabetes mellitus: 1901</li>
+                        <li>Experiments with treatment: 1906 - 1921 (efforts interrupted by WW1) </li>
+                        <li>
+                            First actual treatment: 1922 <br /> <small>While
+                            not typically remembered today, the
+                            isolation and medical utilization of
+                            insulin was widely seen as a medical
+                            miracle at the time</small>
+                        </li>
+                        <li>Insulin Pump: Invented in 1963 as a backpack.</li>
+                        <li>
+                            Karen started wearing her pump in ~1997
+                        </li>
+                        <li>
+                            Karen started wearing her CGM in ~2013
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Hardware!</h3>
+                    <br />
+                    <div id="container">
+                        <div id="left" style="text-align:center;">
+                            <h5>Medtronic Revel Pump</h5>
+                            <image src="img/dexcom_g4.jpg" width="75%">
+                        </div>
+                        <div id="right" style="text-align:center;">
+                            <h5>Dexcom G4 Share</h5>
+                            <image src="img/revel-pump-cgm.png" width="75%"> 
+                        </div>
+                    </div>
+                    <br />
+                </section>
+
+                <section>
+                    <h3>Information Technology!</h3>
+                    <ul>
+                        
+                        <li style="color:lightgreen;">
+                            More information == better diabetes management
+                        </li>
+                        <li>The pump delivers the medicine</li>
+                        <li>The CGM helps us manage the pump</li>
+                        <li>
+                            This is life changing technology
+                            <ul>
+                                <li>
+                                    With greater complexity, more chances for failure
+                                </li>
+                                <li>
+                                    Interstitial fluid readings are a lagging
+                                    indicator of blood glucose levels
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3 style="color:red;">But . . . </h3>
+                    <ul style="color:red;">
+                        <li style="color:lightgreen;">
+                            More info == Better diabetes management
+                        </li>
+                        <li style="color:lightgreen;">
+                            Wouldn't it be great to have this on . . . a watch?
+                        </li>
+                        <li>
+                            No standard communications interface
+                        </li>
+                        <li>
+                            CGM data only available on <img src="img/apple_logo.jpg" width="10%" style="vertical-align:middle;"> phones / watches
+                        </li>
+                        <li>
+                            End users do not control their own data
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>#WeAreNotWaiting</h1>
+                    <h3 style="color:lightgreen;">The Following <i>Awesome</i> Is Not</h3>
+
+                    <img src="img/fda_logo.gif">
+
+                    <h3 style="color:lightgreen;">Approved</h3>
+
+                </section>
+
+                <section>
+                    <img src="img/nightscout_logo.png" width="100%"> <br /><br />
+                    <img src="img/header-photo.jpg" width="100%">
+                </section>
+
+                <section>
+                    <h3>#WeAreNotWaiting</h3>
+
+                    <p style="text-align:left;">
+                        The Maker Movement meets medical necessity.
+                    </p>
+                    <br />
+                    <p style="text-align:left;">
+                        Nightscout was developed by parents of
+                        children with T1D and is developed,
+                        maintained, and supported by volunteers.
+                    </p>
+                    <br />
+                    <p style="text-align:left;">
+                        Today, Nightscout is available for Dexcom G4,
+                        Dexcom Share with Android, Dexcom Share with
+                        iOS, and Medtronic.
+                    </p>
+                    <br />
+                    <p style="text-align:left;color:lightgreen;">
+                        The goal of the project is to allow remote
+                        monitoring of a T1D’s glucose level using
+                        existing monitoring devices.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>#WeAreNotWaiting</h3>
+                    <p style="color:yellow;">Not trivial to set up . . . . </p>
+                    <div id="container">
+                        <div id="left">
+                            <h5 style="text-align:left;">xDrip:</h5>
+                            <ul>
+                                <li><img src="img/android_logo.png" width="25%" style="vertical-align:middle;"></li>
+                                <li><img src="img/apple_logo.jpg" width="25%" style="vertical-align:middle;"></li>
+                                <li><img src="img/pebble_logo.png" width="35%" style="vertical-align:middle;"></li>
+                            </ul>
+                        </div>
+                        <div id="right">
+                            <h5 style="text-align:left;">Nightscout:</h5>
+                            <ul>
+                                <li><img src="img/mongo_logo.png" width="30%" style="vertical-align:middle;"></li>
+                                <li><img src="img/nodejs_logo.png" width="30%" style="vertical-align:middle;"></li>
+                                <li><img src="img/azure_logo.png" width="30%" style="vertical-align:middle;"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Damned Well Worth It: <small>1/4</small></h3>
+                    <img src="img/ns01.png">
+                </section>
+
+                <section>
+                    <h3>Damned Well Worth It: <small>2/4</small></h3>
+                    <img src="img/ns02.png">
+                </section>
+
+                <section>
+                    <h3>Damned Well Worth It: <small>3/4</small></h3>
+                    <img src="img/ns03.jpg" width="50%">
+                </section>
+
+                <section>
+                    <h3>Damned Well Worth It: <small>4/4</small></h3>
+                    <img src="img/ns04.jpg">
+                </section>
+
+                <section>
+                    <h3>Time 4 A Live Demo!</h3>
+                    <img src="img/oops.jpg">
+                </section>
+
+                <section>
+                    <h3 style="color:red;">Technical Difficulties</h3>
+                    <ul>
+                        <li style="color:red;">Karen's CGM Transmitter died this weekend</li>
+                        <li style="color:red;">Insurance won't allow us to have a spare, so we are waiting for the replacement</li>
+                        <li style="color:orange;">Keeping this hardware/software stack running is a MASSIVE PITA</li>
+                        <li style="color:orange;">It is also beyond the capacity of many families with a T1D</li>
+                        <li style="color:orange;">Do they love their family member(s) any less than I do?</li>
+                        <li style="color:lightgreen;">
+                            We should be up and running by the end of the week
+                            <ul>
+                                <li>And that's cool, but we need this TODAY</li>
+                                <li style="color:red;">Did I mention we are six months pregnant?</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Let's Look At Some Numbers<small>1/3</small></h3>
+                    <img src="img/rlogo.png" width="50%">
+                </section>
+
+                <section>
+                    <h3>Let's Look At Some Numbers <small>2/3</small></h3>
+                    <img src="img/why_u_no_sql.jpg" width="50%">
+                </section>
+
+                <section>
+                    <h3>Let's Look At Some Numbers <small>3/3</small></h3>
+                    <br />
+                    <p>Andy: Time to use emacs!</p>
+                    <img src="img/emacs.png">
+                </section>
+
+                <section data-background="lightgreen">
+                    <h3>Should we have access to this data?</h3>
+                    <ul>
+                        <li>HIPAA</li>
+                        <li>We can ask our doctor for medical records. Why not our hardware vendors?</li>
+                        <li>Shouldn't we, as end users, have the right to do what we want with this data?</li>
+                    </ul>
+                </section>
+                        
+                
+
+                <section >
+                    <h1>Thank You!</h1>
+
+                    <ul>
+                        <li><small>Produced using <a href="http://lab.hakim.se/reveal-js/">Reveal.js</a> & <br /> Presented on a Surface Pro 3, running <a href="https://getfedora.org/">Fedora 24</a></small></li>
+                        <li><small>
+                            By IntDiabetesFed - International Diabetes Federation (IDF).<br />
+                            IDF holds all rights to the use of the blue circle for diabetes., <br />
+                            Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2983689">https://commons.wikimedia.org/w/index.php?curid=2983689</a>
+                        </small></li>
+                        <li><small>
+                            Medtronic Revel Pump:<br />
+                            <a href="http://www.medtronicdiabetes.com/products/minimed-revel-insulin-pump">http://www.medtronicdiabetes.com/products/minimed-revel-insulin-pump</a>
+                        </small></li>
+                        <li><small>
+                            Dexcom G4 w/ Share:<br />
+                            <a href="http://www.dexcom.com/dexcom-g4-platinum-share">http://www.dexcom.com/dexcom-g4-platinum-share</a>
+                            
+                        </small></li>
+                        <li><small>
+                            Nightscout Project:<br />
+                            <a href="http://www.nightscout.info/">http://www.nightscout.info/</a>
+                        </small></li>
+                        <li><small>
+                            xDrip:<br />
+                            <a href="http://stephenblackwasalreadytaken.github.io/xDrip/">http://stephenblackwasalreadytaken.github.io/xDrip/</a>
+                        </small></li>
+                    </ul>
+
+                    <br />
+                    <br />
+                    <a href="index.html">Return To Presentation index.html</a>
+                    
+                </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+		 // Full list of configuration options available at:
+			    // https://github.com/hakimel/reveal.js#configuration
+		 Reveal.initialize({
+			 controls: true,
+			 progress: true,
+			 history: true,
+			 center: true,
+
+			 transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			 // Optional reveal.js plugins
+			 dependencies: [
+				 { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				 { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				 { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				 { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				 { src: 'plugin/zoom-js/zoom.js', async: true },
+				 { src: 'plugin/notes/notes.js', async: true }
+			 ]
+		 });
+
+		</script>
+
+	</body>
+</html>
